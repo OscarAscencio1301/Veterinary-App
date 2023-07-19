@@ -43,6 +43,8 @@ export const Form = () => {
   }, [pacientActive])
 
 
+
+
   return (
     <div className="text-center">
       <h2 className="font-black text-3xl">Seguimiento</h2>

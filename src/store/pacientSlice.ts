@@ -28,8 +28,11 @@ export const pacientSlice = createSlice({
         clean: (state) => {
             state.pacientActive = null
         },
+        view: (state, {payload}) => {
+            state.pacients = payload
+        },
 
     }
 })
 
-export const { add, active, clean, deleteP, update } = pacientSlice.actions
+export const { add, active, clean, deleteP, update, view } = pacientSlice.actions
