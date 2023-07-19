@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Component Form Snapshot  1`] = `
+<div>
+  <div
+    class="text-center"
+  >
+    <h2
+      class="font-black text-3xl"
+    >
+      Seguimiento
+    </h2>
+    <p
+      class="text-lg my-5"
+    >
+      Añade Pacientes y 
+      <span
+        class="text-indigo-600 font-bold"
+      >
+        Administralos
+      </span>
+    </p>
+    <form
+      aria-label="form"
+      class="bg-white shadow-md rounded-md py-10 px-5"
+    >
+      <div
+        class="flex flex-col text-left gap-2 py-2"
+      >
+        <label
+          class="text-gray-700 font-bold"
+          for="mascota"
+        >
+          Nombre Mascota
+        </label>
+        <input
+          class="p-2 border placeholder-gray-400 rounded-md"
+          id="mascota"
+          name="pet"
+          placeholder="Nombre Mascota"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="flex flex-col text-left gap-2 py-2"
+      >
+        <label
+          class="text-gray-700 font-bold"
+          for="propietario"
+        >
+          Nombre Propietario
+        </label>
+        <input
+          class="p-2 border placeholder-gray-400 rounded-md"
+          id="propietario"
+          name="name"
+          placeholder="Nombre Propietario"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="flex flex-col text-left gap-2 py-2"
+      >
+        <label
+          class="text-gray-700 font-bold"
+          for="email"
+        >
+          Correo Electrónico
+        </label>
+        <input
+          class="p-2 border placeholder-gray-400 rounded-md"
+          id="email"
+          name="email"
+          placeholder="Email"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        class="flex flex-col text-left gap-2 py-2"
+      >
+        <label
+          class="text-gray-700 font-bold"
+          for="alta"
+        >
+          Alta
+        </label>
+        <input
+          aria-label="date"
+          class="p-2 border placeholder-gray-400 rounded-md"
+          id="alta"
+          name="date"
+          type="date"
+          value=""
+        />
+      </div>
+      <div
+        class="flex flex-col text-left gap-2 py-2"
+      >
+        <label
+          class="text-gray-700 font-bold"
+          for="sintomas"
+        >
+          Sintomas
+        </label>
+        <textarea
+          aria-label="textarea"
+          class="p-2 border placeholder-gray-400 rounded-md"
+          id="sintomas"
+          name="sintoms"
+        />
+      </div>
+      <button
+        class="bg-indigo-600 block w-full p-3 rounded-md text-white mt-3 hover:bg-indigo-800 cursor-pointer transition-colors duration-200"
+        type="submit"
+      >
+        Agregar Paciente
+      </button>
+    </form>
+  </div>
+</div>
+`;
