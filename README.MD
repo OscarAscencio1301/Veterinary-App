@@ -1,3 +1,3 @@
 # Veterinary App
 
-[Demo]([https://](https://veterinary-ts.netlify.app/))
+[Demo](https://veterinary-ts.netlify.app/)
