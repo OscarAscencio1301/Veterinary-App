@@ -1,8 +1,8 @@
-import { Pacient } from '../../src/interfaces/pacients'
+import { Pacient, Pacients } from '../../src/interfaces/pacients'
 
 export const pacientsTesting: Pacient[] = [
     {
-        id: '123',
+        id: '1234',
         name: 'Oscar',
         pet: "Perrito",
         date: '2023/12/02',
@@ -10,3 +10,8 @@ export const pacientsTesting: Pacient[] = [
         sintoms: 'Dolor de cadera'
     }
 ]
+
+export const initialStateTesting:Pacients = {
+    pacients: pacientsTesting,
+    pacientActive: null
+}
